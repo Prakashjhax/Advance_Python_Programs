@@ -1,0 +1,40 @@
+<!-- PROJECT LOGO -->
+<div align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/3208/3208723.png" alt="Logo" width="120" height="120">
+  <h1>🎧 Mood-Based Music Player</h1>
+  <p align="center">
+    An AI-powered music player that understands your mood and plays the perfect songs 🎵<br/>
+    <b>Python • AI • Emotion Recognition • Spotify Integration</b><br/><br/>
+    <a href="#installation">⚙️ Installation</a> •
+    <a href="#usage">🚀 Usage</a> •
+    <a href="#tech-stack">🧩 Tech Stack</a> •
+    <a href="#future-roadmap">🧭 Roadmap</a>
+  </p>
+</div>
+
+---
+
+## 🌟 Overview
+
+**Mood-Based Music Player** is an intelligent Python application that detects your **current mood** through:
+- 🎥 **Facial Emotion Recognition** via webcam  
+- ✍️ **Text Sentiment Analysis** via typed input  
+
+…and automatically plays **mood-matching music** either from your **local library** or **Spotify playlists**.  
+
+> Because music hits differently when it matches your emotions. 🎶  
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|----------|-------------|
+| 😄 Emotion Detection | Detects your mood (happy, sad, angry, etc.) from facial expressions using **OpenCV + FER** |
+| 🧠 Text Sentiment Analysis | Analyzes your written text using **TextBlob** for emotion inference |
+| 🎧 Local Playback | Plays random songs from mood-based local folders |
+| 🔗 Spotify Integration | (Optional) Fetches playlists directly from **Spotify API** |
+| 📊 Extendable | Can track your mood over time and visualize trends |
+| 💻 Cross-platform | Works on Windows, macOS, and Linux |
+
+---
